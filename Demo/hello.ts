@@ -16,4 +16,5 @@ Type variabelen:
 - number -> alle soort getallen, dus ook komma getallen
 - string -> een lijst van karakters
 - boolean -> True/False
+- any -> hier kan je eendert wat insteken (niet gebruiken)
 */
