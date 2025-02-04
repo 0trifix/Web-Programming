@@ -61,3 +61,22 @@ else
 {
     console.log("Moeilijk examen")
 }
+
+let counter: number = 0;
+if (counter == 0)
+{
+
+}
+else if (counter == 1)
+{
+
+}
+
+switch (counter) {
+    case 0:
+        
+        break;
+
+    default:
+        break;
+}
