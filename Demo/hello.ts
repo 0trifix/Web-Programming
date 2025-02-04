@@ -8,3 +8,12 @@ let amount: number = 100;
 let lastName: string;
 lastName = "El Hachimi";
 lastName = "Bok";
+
+const test:string = "Dit is een test"; //Deze variabele kan niet meer veranderd worden, je moet hem bij het aanmaken ook direct een waarde geven
+
+/*
+Type variabelen:
+- number -> alle soort getallen, dus ook komma getallen
+- string -> een lijst van karakters
+- boolean -> True/False
+*/
