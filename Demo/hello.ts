@@ -104,3 +104,8 @@ do
     console.log(index);
     index++;
 }while (index<10);
+
+import * as readline from 'readline-sync'
+
+let myname: string = readline.question("Wat is je naam?")
+console.log(`Dag ${myname}`)
