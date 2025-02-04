@@ -26,3 +26,12 @@ let test2: number = "getal"/2; //"NaN"
 
 let greeting: string = "Mijn naam is " + firstName;
 let greeting1: string = `Mijn naam is ${firstName}`;
+
+console.log(firstName.length);
+console.log(firstName[1]);
+console.log(firstName.charAt(1)); //het verschil tussen de 2 is dat als je buiten de index gaat de bovenste je "undefined" geeft en de onderste geeft een lege waarde
+
+console.log(firstName.substring(3,6)); //Geeft een deel van de string vanaf de eerste waarde tot de 2de
+
+console.log(firstName.toLowerCase());
+console.log(firstName.toUpperCase());
