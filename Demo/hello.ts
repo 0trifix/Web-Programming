@@ -91,6 +91,10 @@ for (index; index < 10; index++) {
 index = 0;
 while (index<10)
 {
+    if (index == 5)
+    {
+        break;
+    }
     index++;
 }
 
