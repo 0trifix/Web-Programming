@@ -18,3 +18,11 @@ Type variabelen:
 - boolean -> True/False
 - any -> hier kan je eendert wat insteken (niet gebruiken)
 */
+
+let unset: string; //Deze zou "undefined" terug geven omdat er geen waarde is gegeven
+
+let test1: number = 1/0; //"infinity"
+let test2: number = "getal"/2; //"NaN"
+
+let greeting: string = "Mijn naam is " + firstName;
+let greeting1: string = `Mijn naam is ${firstName}`;
