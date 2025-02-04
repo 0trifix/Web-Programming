@@ -46,3 +46,7 @@ type LightStatusType = "ON" | "OFF" | "BROKEN"; //Hiermee maak je een nieuw data
 let lightstatus2: LightStatusType
 
 // Datatypes beginnen met een hoofdletter, varabelen met een kleine
+
+let x1: number = Math.random() //Geeft een getal tussen 0 en 0.999999
+let x2: number = Math.floor(Math.random()*10+1);
+let x3: number = Math.round(Math.random()*9+1); //2 manieren om een getal tussen 1 en 10 te krijgen, bovenste is accurater
