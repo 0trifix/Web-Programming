@@ -35,3 +35,14 @@ console.log(firstName.substring(3,6)); //Geeft een deel van de string vanaf de e
 
 console.log(firstName.toLowerCase());
 console.log(firstName.toUpperCase());
+
+
+
+let lightstatus : "ON" | "OFF"; //Hiermee maak je een nieuwe soort variabele
+lightstatus = "ON";
+lightstatus = "BROKEN"; //Werkt niet
+
+type LightStatusType = "ON" | "OFF" | "BROKEN"; //Hiermee maak je een nieuw datatype die vaker kan worden gebruikt.
+let lightstatus2: LightStatusType
+
+// Datatypes beginnen met een hoofdletter, varabelen met een kleine
