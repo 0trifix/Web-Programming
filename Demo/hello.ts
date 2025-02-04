@@ -80,3 +80,23 @@ switch (counter) {
     default:
         break;
 }
+
+let index: number = 0;
+
+for (index; index < 10; index++) {
+    console.log(index);
+    
+}
+
+index = 0;
+while (index<10)
+{
+    index++;
+}
+
+index = 0;
+do
+{
+    console.log(index);
+    index++;
+}while (index<10);
