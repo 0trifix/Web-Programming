@@ -110,4 +110,4 @@ import * as readline from 'readline-sync'
 let myname: string = readline.question("Wat is je naam?")
 console.log(`Dag ${myname}`)
 
-npn init -y && tsc --init && npm i -D @types/nodes
+npm init -y && tsc --init && npm i -D @types/nodes
