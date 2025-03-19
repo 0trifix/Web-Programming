@@ -1,10 +1,10 @@
 import './style.css'
 
 const divList = document.querySelector("#divList");
+const data = [1, 2, 3, 4, 5];
 
-divList.insertAdjacentHTML('beforeend', '<div>1</div>')!;
-divList.insertAdjacentHTML('beforeend', '<div>2</div>')!;
-divList.insertAdjacentHTML('beforeend', '<div>3</div>')!;
+data.map(n => `<div>${n}</div>`)
+.forEach(div => {divList?.insertAdjacentHTML('beforeend', div)});
 
 const btn = document.querySelector('#btn')!;
 let counter = 0;
